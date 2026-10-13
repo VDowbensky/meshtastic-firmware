@@ -117,7 +117,7 @@ const RegionInfo regions[] = {
         https://www.etsi.org/deliver/etsi_en/300200_300299/30022002/03.02.01_60/en_30022002v030201p.pdf
         FIXME: https://github.com/meshtastic/firmware/issues/3371
      */
-    RDEF(EU_433, 433.0f, 434.0f, 10, 10, false, false, PROFILE_STD, PRESET(LONG_FAST), 0),
+    RDEF(EU_433, 433.0f, 434.0f, 10, 22, false, false, PROFILE_STD, PRESET(LONG_FAST), 0),
     /*
         https://www.thethingsnetwork.org/docs/lorawan/duty-cycle/
         https://www.thethingsnetwork.org/docs/lorawan/regional-parameters/
@@ -214,14 +214,14 @@ const RegionInfo regions[] = {
         433,05-434,7 Mhz 10 mW
         https://zakon.rada.gov.ua/laws/show/262-2026-п
     */
-    RDEF(UA_433, 433.0f, 434.7f, 10, 10, false, false, PROFILE_STD, PRESET(LONG_FAST), 0),
+    RDEF(UA_433, 433.0f, 434.7f, 10, 22, false, false, PROFILE_STD, PRESET(LONG_FAST), 0),
 
     /*
         Malaysia
         433 - 435 MHz at 100mW, no restrictions.
         https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Short-Range-Devices-Specification.pdf
     */
-    RDEF(MY_433, 433.0f, 435.0f, 100, 20, false, false, PROFILE_STD, PRESET(LONG_FAST), 0),
+    RDEF(MY_433, 433.0f, 435.0f, 100, 22, false, false, PROFILE_STD, PRESET(LONG_FAST), 0),
 
     /*
         Malaysia
